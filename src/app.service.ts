@@ -1,4 +1,4 @@
-import { Injectable } from '@nestjs/common';
+oimport { Injectable } from '@nestjs/common';
 
 @Injectable()
 export class AppService {
@@ -7,6 +7,6 @@ export class AppService {
   }
 
   sayHi(name: string) {
-    return `Hi ${name}! how you going?`;
+    return `Hello Nest JS 😺`;
   }
 }
