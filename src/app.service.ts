@@ -6,7 +6,7 @@ export class AppService {
     return 'Hello World!';
   }
 
-  sayHi(name: string) {
+  sayHi() {
     return `Hello Nest JS 😺`;
   }
 }
