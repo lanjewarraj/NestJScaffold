@@ -12,6 +12,6 @@ export class AppController {
 
   @Get('/hello')
   sayHi():string {
-    return this.appService.sayHi('Hello Nest JS 😺');
+    return this.appService.sayHi();
   }
 }
