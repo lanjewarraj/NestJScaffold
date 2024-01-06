@@ -10,8 +10,8 @@ export class AppController {
     return this.appService.getHello();
   }
 
-  @Get('/hi')
+  @Get('/hello')
   sayHi():string {
-    return this.appService.sayHi('Joseph');
+    return this.appService.sayHi('Hello Nest JS 😺');
   }
 }
